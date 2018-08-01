@@ -1,0 +1,376 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	 text-align: justify;
+    text-justify: inter-word;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: none;
+    background:none;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+
+
+.section{
+	background-image: url(../images/optimized/forest.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.section h1{
+	line-height: 1.2;
+	color:rgba(55, 7, 1, 0.84);
+	text-shadow: 2px 2px rgba(22,22,22,.4);
+	font-size: 40px;
+}
+.section p{
+	color: #3E0A02;
+	font-size: 12px;
+}
+.section a.go-to-my-work-shop{
+	border: 1px solid white;
+	color: white;
+	border-radius: 8px;
+	padding: 5px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 1px 1px rgba(22,22,22,.4);
+	margin-top: 6px;
+}
+
+.section a.go-to-my-work-shop:hover{
+	background:rgba(112, 36, 16, 0.64);
+	border-color:rgba(112, 36, 16, 0.64);
+	color:#f4f4f4;
+}
+
+.my-info{
+	display: flex;
+}
+
+.item-one >p , .item-two> p , .item-three> p{
+	padding: 10px;
+	 text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.item-one p{
+	 background: #320501;
+	 color: #fff;
+}
+
+.item-two p{
+	background: #D6974C;
+}
+
+.item-three p{
+	color: #f4f4f4;
+	background: #6F1F04;
+}
+
+.footer{
+	padding: 10px;
+	background: #f3f3f4;
+	color: brown; 
+	 text-align: justify;
+    text-justify: inter-word;
+}
+.button-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, #C04B42, #D6974C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #C04B42, #D6974C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #C04B42, #D6974C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #C04B42, #D6974C); /* Standard syntax */
+}
+.button-section>a{
+	text-decoration: none;
+	 background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#501406, #250906); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#501406, #250906); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#501406, #250906); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#501406, #250906); /* Standard syntax */
+    color: white;
+}
+
+.show-more{
+	padding: 5px 20px;
+	border: 1px solid black;
+	border-radius: 3px; 
+	margin: 5px;
+}
+
+.button-section a:hover{
+	background: rgba(214, 151, 76, 0.81);
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+.slide{
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+}
+.slide1{
+	background-image: url(../images/optimized/one.jpg);
+}
+.slide2{
+	background-image: url(../images/optimized/two.jpg);
+}
+.slide3{
+	background-image: url(../images/optimized/three.jpg);
+}
+
+
+.slider-section,.sliders,.slide-content{
+	width: 100%;
+	height: 100vh;
+	overflow-y: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+.arrow{
+	 height: 100px;
+	 width: 100px;
+	 background: yellow;
+	 position: absolute;
+	 z-index: 10;
+}*/
+.slide-content{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*arrorw group*/
+/*.arrow{
+	border-style: solid;
+	position: absolute;
+}
+
+#arrow-left{
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 30px;
+}
+#arrow-right{
+	border-width: 30px 0 30px 40px;
+    border-color: transparent transparent transparent #fff;
+    right:0;
+    margin-right: 30px;
+}*/
+/*arrow end*/
+.slide-content{
+	color: white;
+}
+
+.slide-content span{
+	   padding: 10px 20px;
+	   border: 2px solid white;
+	   border-radius: 9px;
+	   color: white;
+
+}
+.slide-content span:hover{
+	  background:rgba(255, 255, 255, 0.4);
+	  color: #5A2202;
+}
+/**/
+.section-container{
+	width: 100vw;
+	height: 50vw;
+	background-image: url(../images/optimized/waihyn.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+
+}
+
+.slider,.content{
+	width: 50vw;
+	height: 50vw;
+}
+.slider{
+      background: rgba(0, 0, 0, 0.61);
+      display: flex;
+      width: 50vw;
+      overflow: hidden;
+      justify-content: center;
+      align-items: center;
+    /*  flex-direction: column;*/
+      position: relative;
+}
+figure{
+	width: 500vw;
+}
+img{
+
+	height: 50vw;
+	background-size: cover;
+	 opacity: 0.8;
+    filter: alpha(opacity=80);
+	background-position: center;
+	transition: opacity 1.4s,box-shadow 1.4s;
+}
+
+.control-grp{
+	position: absolute;
+	margin-top:2%;
+	width: 100%;
+	background: red;
+	z-index: 1;
+}
+#left,#right{
+	margin-left: 10px;
+	margin-right: 10px;
+	position: absolute;
+	color: white;
+	z-index: 2;
+	padding: 5px 6px;
+	border:1px solid white;
+	cursor: pointer;
+	border-radius: 8px;
+}
+#right{
+	right: 0;
+}
+.content{
+	background:rgba(66, 13, 4, 0.61);
+}
+.cover-letter{
+	height: 50vw;
+	width: 50vw;
+	color: #D6974C;
+	overflow-x: scroll;
+}
+#left:hover , #right:hover {
+	background:yellow;
+	color: indigo;
+	opacity: 1;
+}
+img:hover{
+	box-shadow: 0px 0px 20px 3px black;
+	opacity: 1;
+}
+/*talikie*/
+.talkie{
+	display: flex;
+}
+.talkie-left,.talkie-right{
+	width: 30vw;
+	height: 30vw;
+	transition: box-shadow 1.4s,z-index 1.4s;
+}
+.talkie-left{
+	background-color: #847554;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.talkie-right{
+	background-color: grey;
+}
+.image-me{
+	background-image: url(../images/optimized/waihyn.jpg);
+	width: 100px;
+	height: 100px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 100%;
+
+}
+.talkie-center{
+	width: 40vw;
+	height: 30vw;
+	
+	transition: box-shadow 1.4s,z-index 1.4s;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url(../images/vowel.jpg);
+    /*parallel effect*/
+    	background-attachment: fixed;
+    /*end parallel effects*/
+	background-position: center;
+	background-size: cover;
+	color:yellow;
+	text-shadow: 2px 2px black;
+	font-size: 20px;
+	align-items: center;
+}
+
+.vowel{
+	padding: 10px 10px;
+   border-style: solid;
+   border-color: grey;
+   transition: color 1s , border-color 1s;
+	border-radius: 8px;
+}
+.talkie-left:hover,.talkie-right:hover ,.talkie-center:hover{
+	box-shadow: 0px 0px 30px 10px rgba(10, 10, 10, 0.77);
+	z-index: 10;
+	position: relative;
+
+}
+p.vowel:hover{
+	border-color: yellow;
+	color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-me{
+    	width: 50px;
+    	height: 50px;
+    }
+    .vowel{
+    	font-size: 11px;
+    	padding: 0;
+    }
+}
+#loading{
+	  position:fixed;
+	  z-index: 10;
+	  height: 100%;
+	  width: 100%;
+	  background: black;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+}
+#loading img{
+      position: relative;
+      height: 100px;
+      width: 100px;
+}
+#loading p{
+	color: white;
+}
